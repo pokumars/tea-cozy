@@ -1,0 +1,135 @@
+/*HELP- I keep trying to make the background-image url local but it never
+ seems to work in css.So I end up having to use the online url. It works
+ for normal html elements. Any pointers on that  */
+body{
+  background-color: black;
+  font-size: 22px;
+  background-color: black;
+  text-align: center;
+}
+
+
+/*HEADER */
+.fixed-header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 95%;
+  padding: 10px 30px;
+  background-color: black;
+  margin: 0 10px 0 0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+}
+.header-links{
+  margin: auto 0;
+  font-size: 25px;
+}
+.header-links span a{
+  color: white;
+}
+
+
+/* MISSION*/
+.mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+height: 700px;
+width: 1200px;
+/*background-image: url(\resources\images\img-mission-background.jpg);*/
+ background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+.mission-text{
+  color: white;
+background-color: black;
+width: inherit;
+flex-direction: column;
+display: flex;
+align-items: center;
+}
+
+/* MONTHLY*/
+.monthly{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+width: 1000px;
+background: black;
+margin: 0px auto;
+
+}
+.image-box{
+
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;;
+}
+.month-image{
+  width: 300px;
+  height: 200px
+  margin-bottom: 10px;
+  background-color: black;
+  border: 1px black solid;
+
+}
+.month-image img{
+  width: 300px;
+  height: 200px;
+}
+.month-text{
+color: white;
+}
+
+/*LOCATION*/
+.location-container{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 500px;
+  background-color: black;
+  margin: 10px auto;
+  width: 1200px;
+  color: red;
+}
+
+.location-inner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  height: 500px;
+  background-color: black;
+  margin: 0px auto;
+  width: 1200px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.location{
+  display: flex;
+  flex-direction: column;
+margin: 15px 40px;
+background-color: black;
+text-align: center;
+width: 300px;
+
+}
+.location-text{
+color: white;
+font-size: 25px;
+margin: 10px auto;
+}
+/* CONTACT*/
+.contact{
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+/* FOOTER*/
+footer{
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+}
