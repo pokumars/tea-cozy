@@ -7,6 +7,7 @@ body{
   background-color: black;
   text-align: center;
   opacity: 0.9;
+  font-family: helvetica;
 }
 
 
@@ -105,11 +106,14 @@ color: white;
   color: white;
  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
 }
+.location-container h2{
+margin-bottom: 0px;
+}
 
 .location-inner{
 
   display: flex;
-  height: 500px;
+  height: 300px;
 
   margin: 0px auto;
   width: 1200px;
@@ -131,6 +135,7 @@ color: white;
 font-size: 25px;
 margin: 10px auto;
 opacity: 1;
+height: 45px;
 }
 /* CONTACT*/
 .contact{
